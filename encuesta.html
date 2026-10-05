@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header>
+        <div class="headerI">
+            <img src="img/logotipo.png" alt="Logotipo Beauty Store" class="logoH"/>
+            <nav id="BarraI">
+                <ul>
+                    <li><a href="registro.html">Home</a></li>
+                    <li><a href="soporte.html">Contact</a></li>
+                    <li><a href="pedido.html">Shop</a></li>
+                    <li><a href="encuesta.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="headerD">
+            <nav id="BarraIc">
+                <ul>
+                    <li><span class="material-symbols-outlined">local_mall</span></li>
+                    <li><span class="material-symbols-outlined">favorite</span></li>
+                    <li><span class="material-symbols-outlined">person</span></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="principal">
+            <section class="logo">
+                <article class="logoI">
+                    <img src="img/logotipo.png" alt="Logotipo Beauty Store"/>
+                    <h3>BEAUTY STORE</h3>
+                </article>
+            </section>
+            <section class="registro">
+                <article class="cuadroR">
+                    <h2>ENCUESTA DE<br>SATISFACCIÓN</h2>
+                    <form action="#" method="POST">
+                        <fieldset id="datos_user">
+                            <legend>Tu opinión importa</legend>
+                            <div class="c">
+                                <label>¿Cómo nos conociste?</label>
+                                <select name="origen" required>
+                                    <option value="redes">Redes sociales</option>
+                                    <option value="recomendacion">Recomendación de un amigo</option>
+                                    <option value="buscador">Búsqueda en Google</option>
+                                    <option value="otro">Otro medio</option>
+                                </select>
+                            </div>
+                            <div class="c">
+                                <label>Calificación de tu experiencia:</label>
+                                <div class="opciones-radio">
+                                    <label><input type="radio" name="calificacion" value="1" required> 1</label>
+                                    <label><input type="radio" name="calificacion" value="2"> 2</label>
+                                    <label><input type="radio" name="calificacion" value="3"> 3</label>
+                                    <label><input type="radio" name="calificacion" value="4"> 4</label>
+                                    <label><input type="radio" name="calificacion" value="5"> 5</label>
+                                </div>
+                            </div>
+                            <div class="c">
+                                <label>¿Qué producto te gustaría ver pronto?</label>
+                                <input type="text" name="sugerencia">
+                            </div>
+                            <div class="c">
+                                <label>Comentarios adicionales:</label>
+                                <textarea name="comentarios" columns= "3" rows="3"></textarea>
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="b">Enviar Encuesta</button>
+                    </form>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <nav class="pie">
+            <ul>
+                <li><a>Sobre nosotros</a></li>
+                <li><a>Términos de servicio</a></li>
+                <li><a>Políticas de privacidad</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
