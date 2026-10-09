@@ -1,0 +1,24 @@
+
+#tablaDatos {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    border: 1px solid #333333;
+}
+
+select {
+    background-color: #171717;
+    border: 3px solid #404040;
+    padding: 8px;
+    border-radius: 6px;
+    color: #ffffff;
+    width: 100%;
+}
+
+textarea {
+    background-color: #171717;
+    border: 3px solid #404040;
+    padding: 8px;
+    border-radius: 6px;
+    color: #ffffff;
+    width: 100%;
+}
